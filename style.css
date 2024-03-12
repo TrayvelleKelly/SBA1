@@ -1,0 +1,232 @@
+/* ------------------------------------------------[Desktop] */
+@media (max-width: 1980px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+}
+/* ------------------------------------------------[Desktop] */
+/* ------------------------------------------------[Tablet] */
+@media (max-width: 880px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+}
+/* ------------------------------------------------[Tablet] */
+/* ------------------------------------------------[Mobile] */
+@media (max-width: 580px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+}
+/* ------------------------------------------------[Mobile] */
+
+/* Navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+
+/* Container */
+.navcontainer {
+    width: 100%;
+    height: 80%;
+}
+
+/* Car Logo*/
+.car {
+    height: 80px;
+}
+
+/* carousel slide */
+.carousel-slide {
+    margin-top: 56px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+/* ------------------------------------------------bootstrap folder-----------------------------------------------------*/
+/* ------------------------------------------------[desktop] */
+@media (max-width: 1980px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: grey;
+    }
+}
+/* ------------------------------------------------[desktop] */
+
+/* ------------------------------------------------[ipad] */
+@media (max-width: 880px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}
+/* ------------------------------------------------[ipad] */
+
+/* ------------------------------------------------[phone] */
+@media (max-width: 580px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}
+/* ------------------------------------------------[phone] */
+
+/* Navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1000;
+}
+/* Car Logo*/
+.car {
+    height: 80px;
+}
+/* topcontainer */
+.top {
+    height: calc(100vh - 56px - 80px);
+    padding-top: 300px;
+    padding-left: 
+    justify-content space-evenly;
+}
+/* parts */
+.parts {
+    text-align: center;
+    font-size: x-large;
+    padding-top: 100px;
+    animation: slidein 0.5s ease-in-out forwards;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    bottom: 0;
+    width: 100%;
+}
+@keyframes slidein {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/* -----------------------------------------------------------------page3------------------------------------- */
+/* Desktop */
+@media (max-width: 1980px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: grey;
+    }
+}
+
+/* Tablet */
+@media (max-width: 880px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 580px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1000;
+}
+
+/* Car Logo */
+.car {
+    height: 80px;
+}
+
+.page3 {
+    height: 100%vh;
+    padding-top: 50px;
+    padding-left: justify-content space-evenly;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.images {
+    justify-content: center;
+    padding: 5px;
+    flex-direction: row;
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
